@@ -1,0 +1,48 @@
+
+<head> 
+    <title>แบบฟรอมกรอกข้อมูล</title>
+</head>
+
+<body>
+    <form action="/action_page.php">
+        First name: <br>
+        <input type="text" name="firstname"> 
+        <br>
+        Last name: <br>
+        <input type="text" name="lastname">  
+        <br><br>
+        
+        <br>
+
+<label for="gender">เพศ :</label>
+
+<select id="gender" name="gender" required>
+    <option value="male">ชาย</option>
+    <option value="femle">หญิง</option>
+    <option value="other">อื่นๆ</option>
+</select>
+
+      
+      <br>
+
+      <label for="Docment">อัพโหลดเอกสาร</label>
+<input type="file" id="Docment" name="Docment" accept=".pdf,.docx" required>
+<br>
+
+<label for="email">อีเมล์</label>  
+<input type="email" id="email" name="email" required>
+<br>
+
+<label for="brithdate">วันเกิด</label>
+<input type="date" id="brithdate" name="brithdate" required>
+<br>
+
+<label for="gpax">gpax</label>
+<input type="number" id="gpax" name="gpax" step="0.01" required>
+<br>
+
+<button type="submit">save</button>
+<p>jsdfhjdsk</p>
+</body>
+
+</form> 
